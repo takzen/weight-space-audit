@@ -14,7 +14,7 @@ HERE = Path(__file__).resolve().parent
 sys.stdout.reconfigure(encoding="utf-8")
 TEXT_SUFFIXES = {".md", ".txt", ".json", ".jsonl", ".py", ".html", ".log", ".csv"}
 # Polish renderings of phrases whose English form is checked too.
-TRANSLATED = {"3,5% wag", "Rozumowanie", "co każda część oblicza", "baza posta silnie zależy od temperatury"}
+TRANSLATED = {"3,5% wag", "rozumowanie", "co każda część oblicza", "Wkrótce"}
 MAX_BYTES = 40_000_000
 
 

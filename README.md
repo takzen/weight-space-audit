@@ -6,16 +6,17 @@ An independent check of [“Sparks of Weight-Space Programming”](https://rikiy
 
 Po polsku: [README.pl.md](README.pl.md)
 
-> Measurements are still running. The page and this file are updated as they finish.
-
 ## What came out
 
-- **Writing weights holds.** With no feedback, Astra's networks beat PPO at 100M steps in all three games.
-- **Reading weights better than humans or algorithms isn't shown.** The post tests neither, one line of numpy shows the same signal in Exp 1, and the only test on a large model failed.
-- **The Qwen fix is real, but its 6x starts from the looping mode.** With thinking on, 93% of the unedited model's answers hit the token cap, so it scores 7.9%. The edit brings that down to 33% and the score up to 48.1%. With no edit and thinking off, the model's default mode, it scores 46.0% (95% interval 42.5–49.5).
-- **With thinking off, the edit adds nothing measurable so far:** 43.0% against 46.0%, with one sample per problem. More samples are queued.
+**An interesting demo, but much less than the authors claim.**
 
-The 7.9% and 48.1% are the authors' numbers, and they're being re-measured here.
+- **Writing small networks holds.** With no feedback, Astra's networks beat PPO at 100M steps in all three games.
+- **Reading weights better than humans or algorithms isn't shown.** The post tests neither, one line of numpy shows the same signal in its first experiment, and the only test on a large model failed.
+- **The Qwen fix is real, but its 6x starts from the looping mode.** With thinking on, 93% of the unedited model's answers hit the token cap, so it scores 7.9%. The edit brings that down to 33% and the score up to 48.1%. With no edit and thinking off, the model's default mode, it scores 46.0% (95% interval 42.5–49.5).
+- **With thinking off, the edit adds nothing measurable:** 43.0% against 46.0%, with one sample per problem for the edited model.
+- **"Soon" is a forecast.** The largest written network has 1.5M weights, and the one edit of a real model repaired one failure in one run.
+
+The 7.9% and 48.1% are the authors' numbers and weren't re-run here. A longer planned test was stopped early, and [DEVIATIONS.md](DEVIATIONS.md) lists what didn't run.
 
 ## What's here
 
@@ -30,12 +31,12 @@ The 7.9% and 48.1% are the authors' numbers, and they're being re-measured here.
 
 ## How it was measured
 
-- **Model:** `Qwen/Qwen3.5-0.8B` at revision `2fc06364`, with the authors' published `p50c` edit for the edited rows.
+- **Model:** `Qwen/Qwen3.5-0.8B` at revision `2fc06364`, with the authors' published `p50c` edit for the edited run.
 - **Hardware and software:** one RTX 4060 (8 GB), vLLM 0.33.0.
 - **Grading:** the authors' grader, which reproduced their grades on 400 of 400 published samples.
 - **Statistics:** 95% bootstrap over problems, with paired differences on shared problems.
 
-The decision rules were fixed before the first measured answer, and the page shows them next to each result. Astra itself wasn't re-run.
+Astra itself wasn't re-run.
 
 ## Credit and disclosure
 

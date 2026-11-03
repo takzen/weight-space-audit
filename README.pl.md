@@ -6,16 +6,17 @@ Niezależne sprawdzenie, zdanie po zdaniu, posta [„Sparks of Weight-Space Prog
 
 In English: [README.md](README.md)
 
-> Pomiary jeszcze trwają. Strona i ten plik są aktualizowane, gdy się kończą.
-
 ## Co wyszło
 
-- **Pisanie wag: stoi.** Bez informacji zwrotnej sieci Astry biją PPO po 100 mln kroków we wszystkich trzech grach.
-- **Czytanie wag lepiej niż ludzie i algorytmy: nie pokazano.** Post nie testuje ani jednych, ani drugich, w eksp. 1 jedna linijka numpy pokazuje ten sam sygnał, a jedyny test na dużym modelu się nie udał.
-- **Naprawa Qwena: prawdziwa, ale jej 6x liczone jest od trybu z pętlami.** Z włączonym myśleniem 93% odpowiedzi modelu bez edycji dochodzi do limitu tokenów, stąd wynik 7,9%. Edycja obniża to do 33%, a wynik rośnie do 48,1%. Bez edycji, z wyłączonym myśleniem, czyli w trybie domyślnym, model ma 46,0% (przedział 95%: 42,5–49,5).
-- **Przy wyłączonym myśleniu edycja na razie nie dodaje niczego mierzalnego:** 43,0% wobec 46,0%, po jednej próbce na zadanie. Kolejne próbki są w kolejce.
+**Ciekawy pokaz, ale dużo mniej, niż piszą autorzy.**
 
-Wyniki 7,9% i 48,1% to liczby autorów i są tu właśnie mierzone ponownie.
+- **Pisanie małych sieci: stoi.** Bez informacji zwrotnej sieci Astry biją PPO po 100 mln kroków we wszystkich trzech grach.
+- **Czytanie wag lepiej niż ludzie i algorytmy: nie pokazano.** Post nie testuje ani jednych, ani drugich, w pierwszym eksperymencie jedna linijka numpy pokazuje ten sam sygnał, a jedyny test na dużym modelu się nie udał.
+- **Naprawa Qwena: prawdziwa, ale jej 6x liczone jest od trybu z pętlami.** Z włączonym myśleniem 93% odpowiedzi modelu bez edycji dochodzi do limitu tokenów, stąd wynik 7,9%. Edycja obniża to do 33%, a wynik rośnie do 48,1%. Bez edycji, z wyłączonym myśleniem, czyli w trybie domyślnym, model ma 46,0% (przedział 95%: 42,5–49,5).
+- **Przy wyłączonym myśleniu edycja nie dodaje niczego mierzalnego:** 43,0% wobec 46,0%, po jednej próbce na zadanie dla modelu z edycją.
+- **„Wkrótce” to prognoza.** Największa napisana sieć ma 1,5 mln wag, a jedyna edycja prawdziwego modelu naprawiła jedną usterkę w jednym przebiegu.
+
+Wyniki 7,9% i 48,1% to liczby autorów, tu ich nie powtórzono. Dłuższy zaplanowany test przerwano, a [DEVIATIONS.md](DEVIATIONS.md) podaje, czego nie uruchomiono.
 
 ## Co tu jest
 
@@ -30,12 +31,12 @@ Wyniki 7,9% i 48,1% to liczby autorów i są tu właśnie mierzone ponownie.
 
 ## Jak to zmierzono
 
-- **Model:** `Qwen/Qwen3.5-0.8B` w rewizji `2fc06364`, a w wierszach z edycją opublikowany przez autorów diff `p50c`.
+- **Model:** `Qwen/Qwen3.5-0.8B` w rewizji `2fc06364`, a w przebiegu z edycją opublikowany przez autorów diff `p50c`.
 - **Sprzęt i oprogramowanie:** jedna karta RTX 4060 (8 GB), vLLM 0.33.0.
 - **Ocenianie:** grader autorów, który odtworzył ich oceny na 400 z 400 opublikowanych próbek.
 - **Statystyka:** 95% bootstrap po zadaniach, a różnice sparowane na wspólnych zadaniach.
 
-Reguły decyzyjne ustalono przed pierwszą mierzoną odpowiedzią, a strona pokazuje je przy każdym wyniku. Astry nie uruchamiano ponownie.
+Astry nie uruchamiano ponownie.
 
 ## Podziękowania i zastrzeżenie
 

@@ -1,4 +1,4 @@
-"""Prose, styles and script of the results page. The measured numbers come from build_page.py; numbers in the audit come from the authors' logs."""
+"""Prose, styles and script of the results page. Measured numbers come from page_final.py; numbers in the audit come from the authors' logs."""
 
 
 def T(en, pl):
@@ -89,71 +89,14 @@ button:focus-visible, a:focus-visible, summary:focus-visible, [tabindex]:focus-v
 .scale-bar { display: grid; grid-template-columns: repeat(8, 1fr); gap: 2px; flex: 1; height: 10px; }
 .scale-bar i { display: block; }
 .values summary { cursor: pointer; font: 400 .78rem/1.4 var(--mono); color: var(--ink-3); }
-.grid-values { border-collapse: collapse; font: 400 .7rem/1.5 var(--mono); font-variant-numeric: tabular-nums; margin-top: .4rem; }
-.grid-values td { padding: 0 .35rem; text-align: right; color: var(--ink-2); }
 
 main { display: grid; gap: 0; }
 section { display: grid; gap: 1rem; padding-block: 2.25rem; border-bottom: 1px solid var(--rule-2); min-width: 0; }
 section > p, section > ul, section > ol { max-width: 46rem; }
 .bul { margin: 0; padding-left: 1.15rem; display: grid; gap: .55rem; }
 .findings { max-width: 44rem; font-size: 1.0625rem; line-height: 1.5; }
-.plain { margin: .3rem 0 0; padding: 0; list-style: none; display: grid; gap: .45rem; }
-.find { display: grid; gap: .3rem; max-width: 46rem; }
-.finds { display: grid; gap: 1.1rem; }
 
-.fig { margin: .25rem 0; background: var(--sheet); border: 1px solid var(--rule); border-radius: 3px; padding: clamp(.9rem, 2vw, 1.4rem); display: grid; gap: .8rem; min-width: 0; }
-.fig > figcaption { font: 650 1.125rem/1.25 var(--display); }
-.legend { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; font-size: .8125rem; color: var(--ink-2); }
-.legend span[lang], .legend > span { display: inline-flex; align-items: center; gap: .4rem; }
-.swatch { display: inline-block; width: 10px; height: 10px; border-radius: 50%; flex: none; margin-right: .4rem; }
-.legend .swatch { margin-right: 0; }
-.swatch.edited, .dot.edited, .bar.edited, .ci.edited { background: var(--edited); }
-.swatch.unedited, .dot.unedited, .bar.unedited, .ci.unedited { background: var(--unedited); }
-.ringkey { width: 12px; height: 12px; border: 2px solid var(--ring); border-radius: 50%; display: inline-block; }
-.cikey { width: 18px; height: 2px; background: var(--ink-2); display: inline-block; }
-.ch { --cols: minmax(11rem, 1.5fr) minmax(0, 2.2fr) 4.6rem minmax(0, 1.1fr) 2.6rem; display: grid; }
-.ch-head, .ch-row { display: grid; grid-template-columns: var(--cols); gap: .9rem; align-items: center; }
-.ch-head { align-items: end; padding-bottom: .25rem; }
-.ch-phone { display: none; font-size: .8125rem; color: var(--ink-2); }
-.ch-title { font: 500 .75rem/1.3 var(--mono); color: var(--ink-3); display: grid; gap: .35rem; }
-.axis { position: relative; height: 1rem; font: 400 .72rem/1 var(--mono); color: var(--ink-3); font-variant-numeric: tabular-nums; }
-.axis b { position: absolute; top: 0; font-weight: 400; transform: translateX(-50%); }
-.axis b:first-child { transform: none; } .axis b:last-child { transform: translateX(-100%); }
-.ch-group { font: 500 .75rem/1.3 var(--mono); letter-spacing: .03em; color: var(--ink-2); padding: .85rem 0 .3rem; border-top: 1px solid var(--rule-2); margin-top: .25rem; }
-.ch-row { padding: .42rem 0; border-top: 1px solid var(--rule); }
-.ch-group + .ch-row { border-top: 0; }
-.ch-row[tabindex] { cursor: default; }
-.ch-row[tabindex]:hover { background: color-mix(in srgb, var(--rule) 35%, transparent); }
-.ch-row.pending { grid-template-columns: minmax(11rem, 1.5fr) minmax(0, 4fr); }
-.ch-pending { font: 400 .8rem/1.3 var(--mono); color: var(--ink-3); }
-.ch-label { display: grid; gap: .05rem; font-size: .875rem; line-height: 1.3; min-width: 0; }
-.ch-name { font-weight: 600; }
-.ch-label code { font-size: .75rem; color: var(--ink-2); }
-.ch-label small { font-size: .75rem; }
-.track { position: relative; height: 26px; min-width: 0;
-  background-image: linear-gradient(to right, var(--rule) 1px, transparent 1px); background-size: 20% 100%; border-right: 1px solid var(--rule); }
-.dot, .ring, .ci, .bar { position: absolute; top: 50%; }
-.ci { height: 2px; margin-top: -1px; border-radius: 1px; }
-.dot { width: 11px; height: 11px; border-radius: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 0 2px var(--sheet); }
-.ring { width: 15px; height: 15px; border-radius: 50%; border: 2px solid var(--ring); transform: translate(-50%, -50%); }
-.track.bars { background-size: 50% 100%; }
-.bar { left: 0; height: 12px; margin-top: -6px; border-radius: 0 4px 4px 0; min-width: 1px; }
-.ch-val { display: grid; gap: 0; font-variant-numeric: tabular-nums; text-align: right; line-height: 1.2; font-size: .9375rem; }
-.ch-val strong { font-weight: 600; }
-.ch-val small { font-size: .72rem; white-space: nowrap; }
-.flag { font: 500 .7rem/1 var(--mono); color: var(--bad); }
-
-.decs { display: grid; gap: 0; }
-.dec { display: grid; grid-template-columns: 3.25rem minmax(0, 1fr); gap: .75rem; padding-block: 1rem; border-top: 1px solid var(--rule); }
-.dec-id { font: 650 1.45rem/1.15 var(--display); color: var(--ink-3); }
-.dec-body { display: grid; gap: .45rem; max-width: 50rem; min-width: 0; }
-.rule { font-size: .9375rem; color: var(--ink-2); }
-.tag { font: 500 .7rem/1.2 var(--mono); letter-spacing: .05em; text-transform: uppercase; color: var(--ink-3); margin-right: .35rem; }
-.res { font-size: 1rem; }
 .chip { display: inline-flex; align-items: center; gap: .3rem; font: 500 .75rem/1.25 var(--mono); padding: .14rem .45rem; border: 1px solid var(--rule-2); border-radius: 3px; color: var(--ink-2); vertical-align: 1px; }
-.chip.strong { color: var(--ink); border-color: var(--ink); font-weight: 500; }
-.chip.good { color: var(--good); border-color: var(--good); }
-.chip.bad { color: var(--bad); border-color: var(--bad); }
 .chip b { font-weight: 700; }
 .chip.v-yes { color: var(--good); border-color: var(--good); }
 .chip.v-part { color: var(--warn); border-color: var(--warn); }
@@ -167,6 +110,10 @@ section > p, section > ul, section > ol { max-width: 46rem; }
 .claim-a { display: grid; gap: .5rem; font-size: .96875rem; min-width: 0; }
 .claim-a .chip { font-size: .8125rem; font-weight: 500; }
 
+.more { border-top: 1px solid var(--rule); padding-block: .8rem; }
+.more > summary { cursor: pointer; font: 600 1.0625rem/1.4 var(--body); }
+.more-body { display: grid; gap: 1rem; padding-top: 1rem; }
+.more-body > p, .more-body > ul { max-width: 46rem; }
 .scroll { overflow-x: auto; max-width: 100%; }
 table.data { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: .9375rem; background: var(--sheet); }
 table.data th, table.data td { padding: .55rem .7rem; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
@@ -204,16 +151,6 @@ blockquote code { font-size: .84em; }
   .hero-fig { max-width: 26rem; }
   .exp-cols { grid-template-columns: minmax(0, 1fr); }
 }
-@media (max-width: 46rem) {
-  .ch { --cols: minmax(0, 1fr) 4.4rem; }
-  .ch-head { display: none; }
-  .ch-phone { display: block; }
-  .ch-row { gap: .25rem .75rem; padding: .7rem 0; }
-  .ch-row.pending { grid-template-columns: minmax(0, 1fr); }
-  .ch-label { grid-column: 1 / -1; }
-  .ch-val small { font-size: .7rem; }
-  .dec { grid-template-columns: minmax(0, 1fr); gap: .25rem; }
-}
 @media (prefers-reduced-motion: no-preference) { .langs button { transition: background-color .12s; } }
 """
 
@@ -221,19 +158,6 @@ CARD_CSS = r"""
 html, body { width: 1200px; height: 800px; overflow: hidden; margin: 0; background: var(--sheet); }
 .card { box-sizing: border-box; width: 1200px; height: 800px; padding: 34px 44px 24px; display: flex; flex-direction: column; gap: 12px; }
 .card h1 { font: 650 37px/1.1 var(--display); letter-spacing: -.012em; }
-.card .legend { font-size: 14px; }
-.card .ch { --cols: 345px minmax(0, 1fr) 66px 190px 38px; flex: 1; align-content: start; }
-.card .ch-row.pending { grid-template-columns: 345px minmax(0, 1fr); }
-.card .ch-row { padding: 3px 0; gap: 12px; }
-.card .ch-group { padding: 8px 0 2px; font-size: 13px; }
-.card .ch-label { font-size: 14px; grid-template-columns: auto 1fr; column-gap: .55rem; align-items: baseline; }
-.card .ch-label small { grid-column: 1 / -1; font-size: 12px; }
-.card .ch-label code { font-size: 12.5px; }
-.card .ch-pending { font-size: 12.5px; }
-.card .track { height: 24px; }
-.card .ch-val { font-size: 16px; }
-.card .ch-val small { font-size: 11.5px; }
-.card .ch-phone { display: none; }
 .card-foot { font-size: 14.5px; line-height: 1.35; color: var(--ink-2); margin-top: auto; }
 .card-maps { display: grid; grid-template-columns: 500px 1fr; gap: 40px; align-items: start; }
 .card-big .grid10 { width: 500px; }
@@ -281,19 +205,16 @@ JS = r"""
   });
   function text(el) {
     var l = root.getAttribute('data-lang');
-    if (el.dataset.v) {
-      var i = Array.prototype.indexOf.call(el.parentNode.children, el);
-      var r = Math.floor(i / 10), c = i % 10;
-      return (l === 'pl' ? 'rząd ' + r + ', kolumna ' + c + ': ' + el.dataset.v.replace('.', ',') : 'row ' + r + ', column ' + c + ': ' + el.dataset.v);
-    }
-    return l === 'pl' ? el.dataset.tipPl : el.dataset.tipEn;
+    var i = Array.prototype.indexOf.call(el.parentNode.children, el);
+    var r = Math.floor(i / 10), c = i % 10;
+    return (l === 'pl' ? 'rząd ' + r + ', kolumna ' + c + ': ' + el.dataset.v.replace('.', ',') : 'row ' + r + ', column ' + c + ': ' + el.dataset.v);
   }
   function place(x, y) {
     var w = tip.offsetWidth, h = tip.offsetHeight, vw = window.innerWidth, vh = window.innerHeight;
     tip.style.left = Math.max(8, Math.min(x + 12, vw - w - 8)) + 'px';
     tip.style.top = Math.max(8, (y + h + 24 > vh ? y - h - 12 : y + 16)) + 'px';
   }
-  function source(t) { return t && t.closest ? t.closest('[data-tip-en],[data-v]') : null; }
+  function source(t) { return t && t.closest ? t.closest('[data-v]') : null; }
   document.addEventListener('pointermove', function (ev) {
     var s = source(ev.target);
     if (!s) { tip.hidden = true; return; }
@@ -313,39 +234,18 @@ JS = r"""
 })();
 """
 
-CLAIMS_INTRO_EN = "The claims in the post's TL;DR, in order. Each verdict links to the evidence further down."
-CLAIMS_INTRO_PL = "Tezy z TL;DR posta, po kolei, w tłumaczeniu z angielskiego. Każda ocena prowadzi do dowodów niżej."
-INTRO_EN = ("The post's biggest number: editing 0.016% of Qwen3.5-0.8B's weights lifts MATH-500 from 7.9% to 48.1%, with thinking on, "
-            "temperature 0.6 and presence penalty 1.5. In that setting 93% of the unedited model's answers run into the 32,768-token cap. "
-            "The model card warns about these thinking loops. It also recommends temperature 1.0 for thinking on text, and says this model "
-            "runs with thinking off by default. The post reports no control for either, so this test adds them.")
-INTRO_PL = ("Największa liczba w poście: edycja 0,016% wag Qwen3.5-0.8B podnosi MATH-500 z 7,9% do 48,1%, przy włączonym myśleniu, "
-            "temperaturze 0,6 i presence penalty 1,5. W tym ustawieniu 93% odpowiedzi modelu bez edycji dochodzi do limitu 32 768 tokenów. "
-            "Karta modelu ostrzega przed tymi pętlami. Zaleca też temperaturę 1,0 dla myślenia na tekście i mówi, że ten model domyślnie działa "
-            "z wyłączonym myśleniem. Post nie podaje kontroli dla żadnej z tych rzeczy, więc ten test je dodaje.")
-CHART_NOTE_EN = ("The 100 problems were drawn once, with a fixed seed, before any run. The draw is harder than average: the authors' unedited score is 3.0% here and 7.9% on all 500. "
-                 "So compare rows with each other here, and use the table below for the full benchmarks.")
-CHART_NOTE_PL = ("Te 100 zadań wylosowano raz, ze stałym ziarnem, przed wszystkimi przebiegami. Próba jest trudniejsza od średniej: wynik autorów bez edycji to tu 3,0%, a na wszystkich 500 zadaniach 7,9%. "
-                 "Porównuj więc tutaj wiersze między sobą, a pełne benchmarki są w tabeli niżej.")
-FULL_NOTE_EN = ("Same prompt and grader as the post. The grader reproduced the authors' grades on 400 of 400 published samples. "
-                "Intervals are 95% bootstrap over problems. The token cap differs: 8,192 with thinking off, 32,768 with thinking on.")
-FULL_NOTE_PL = ("Ten sam prompt i grader co w poście. Grader odtworzył oceny autorów na 400 z 400 opublikowanych próbek. "
-                "Przedziały to 95% bootstrap po zadaniach. Limit tokenów jest inny: 8192 bez myślenia, 32 768 z myśleniem.")
-
+CLAIMS_INTRO_EN = "The claims in the post's TL;DR, in order."
+CLAIMS_INTRO_PL = "Tezy z TL;DR posta, po kolei, w tłumaczeniu z angielskiego."
 AUTHORS_CODE = (
-    P("The comments below are in the code the authors released, in <code>exp8_math/code/profiles.py</code>. The post and the experiment's README don't mention these runs. The top-level README says &ldquo;Trial runs of earlier prompt versions are left out&rdquo;, so their scores can't be checked.",
-      "Poniższe komentarze są w kodzie, który autorzy sami opublikowali, w <code>exp8_math/code/profiles.py</code>. Post i README eksperymentu nie wspominają o tych przebiegach. Główne README mówi, że przebiegi próbne wcześniejszych wersji promptu pominięto (&bdquo;Trial runs of earlier prompt versions are left out&rdquo;), więc ich wyników nie da się sprawdzić.")
+    P("These comments are in the code the authors published, in <code>exp8_math/code/profiles.py</code>. The post and the experiment's README don't mention these runs.",
+      "Te komentarze są w kodzie, który autorzy sami opublikowali, w <code>exp8_math/code/profiles.py</code>. Post i README eksperymentu nie wspominają o tych przebiegach.")
     + '<div class="quotes">'
     + '<blockquote><code># thinking OFF (2026-10-23): with thinking on, the 0.8B looped ("Wait, let\'s check ...") and 92 % of MATH-500 answers hit 32,768 tokens (MATH-500 9.3 %); the model card: "Qwen3.5-0.8B operates in non-thinking mode by default"</code></blockquote>'
-    + '<blockquote><code># prompt v3 (2026-10-23, after the v2 runs measured noise: the unedited model read 55.5 % and 50.8 % in two 128-answer passes)</code></blockquote>'
     + '<blockquote><code># prompt v5, thinking off: answers are short and v3/v4 gains sat below the noise</code></blockquote>'
     + "</div>"
-    + P("So by then the authors knew that the model loops with thinking on and that its default is thinking off. 55.5% and 50.8% are very likely that default mode, since thinking on reads about 10% on practice problems in the same logs; that part is an inference. The third comment suggests that edits with thinking off gave no gain above noise. The post gives no score for this mode.",
-        "Autorzy wiedzieli więc wtedy, że z włączonym myśleniem model się zapętla i że jego domyślny tryb to myślenie wyłączone. 55,5% i 50,8% to najpewniej właśnie ten tryb, bo włączone myślenie daje w tych samych logach około 10% na zadaniach ćwiczebnych; to wniosek z liczb. Trzeci komentarz sugeruje, że edycje przy wyłączonym myśleniu nie dawały zysku ponad szum. Post nie podaje wyniku dla tego trybu.")
+    + P("So by then the authors knew that the model loops with thinking on and that its default is thinking off. The second comment suggests that edits with thinking off gave no gain above noise, and the measurement here points the same way. The post gives no score for this mode.",
+        "Autorzy wiedzieli więc wtedy, że z włączonym myśleniem model się zapętla i że jego domyślny tryb to myślenie wyłączone. Drugi komentarz sugeruje, że edycje przy wyłączonym myśleniu nie dawały zysku ponad szum, a pomiar tutaj wskazuje to samo. Post nie podaje wyniku dla tego trybu.")
 )
-
-EXPLORATORY_NOTE_EN = "These comparisons were added after the plan and decide no rule. Those against the post's scores mix runs from two machines, so they rely on the calibration above."
-EXPLORATORY_NOTE_PL = "Te porównania doszły po planie i niczego nie rozstrzygają. Te względem wyników posta łączą przebiegi z dwóch maszyn, więc opierają się na kalibracji opisanej wyżej."
 
 CARD_INTRO_EN = "The card reports no MATH-500 or GSM8K for this model. It does report three benchmarks the post also uses, and the picture is mixed."
 CARD_INTRO_PL = "Karta nie podaje dla tego modelu MATH-500 ani GSM8K. Podaje za to trzy benchmarki użyte też w poście, a obraz jest niejednoznaczny."
@@ -454,37 +354,8 @@ OVERALL = (
         "Odczytanie zachowania z samych wag w dużym modelu to umiejętność, której wizja audytu potrzebuje najbardziej. Jak dotąd ma jeden test, eksperyment 7, i ten test nie wyszedł.")
 )
 
-CREDIT = UL([
-    ("<strong>The logs are public and complete enough to audit.</strong> This page exists because of them. They include the failures, the causal check that doesn't flatter Astra, and code comments that show the path to the result.",
-     "<strong>Logi są publiczne i na tyle pełne, że da się je audytować.</strong> Ta strona powstała dzięki nim. Zawierają porażki, kontrolę przyczynową, która nie schlebia Astrze, i komentarze w kodzie pokazujące drogę do wyniku."),
-    ("<strong>The post states its own limits.</strong> It reports the failure of Exp 7, the failure on Gemma, and says outright that fixing loops isn't the same as making a model better at math.",
-     "<strong>Post sam podaje swoje granice.</strong> Opisuje porażkę eksperymentu 7, porażkę na Gemmie i wprost mówi, że naprawa pętli to nie to samo, co poprawa w matematyce."),
-    ("<strong>Exp 3 and Exp 5 are hard to wave away.</strong> Copying heads found from weights with no false positives, and zero-feedback networks that beat a one-shot attempt written to deflate them.",
-     "<strong>Eksperymentów 3 i 5 nie da się łatwo zbyć.</strong> Głowy kopiujące znalezione z wag bez fałszywych trafień i sieci bez informacji zwrotnej, które pobiły jednorazową próbę napisaną po to, by je osłabić."),
-    ("<strong>Exp 8 is real engineering.</strong> An LLM with no gradients found one fix, kept a random control and a held-out set, and the fix works on benchmarks it never saw.",
-     "<strong>Eksperyment 8 to prawdziwa inżynieria.</strong> LLM bez gradientów znalazł jedną naprawę, zachował kontrolę losową i zbiór odłożony, a naprawa działa na benchmarkach, których nigdy nie widział."),
-])
-
-OPEN = UL([
-    ("Publish the scores of the thinking-off edit runs that the code comments mention.", "Opublikować wyniki przebiegów edycji z wyłączonym myśleniem, o których mówią komentarze w kodzie."),
-    ("Repeat the 50-pass run several times. One run can't show how often Astra finds this fix.", "Powtórzyć przebieg z 50 przejściami kilka razy. Jeden przebieg nie pokaże, jak często Astra znajduje tę naprawę."),
-    ("Measure the edit at T 1.0 on all 500 problems with 4 samples, and on IFEval. This test used 100 problems with one sample.", "Zmierzyć edycję przy T 1,0 na wszystkich 500 zadaniach z 4 próbkami i na IFEval. Ten test użył 100 zadań po jednej próbce."),
-    ("Score the Go networks against an outside engine such as GNU Go.", "Ocenić sieci do go względem zewnętrznego silnika, np. GNU Go."),
-    ("Run a weights-only behaviour test with more pairs and a planted trait people care about, such as a backdoor.", "Zrobić test odczytu zachowania z samych wag na większej liczbie par i z zaszytą cechą, na której komuś zależy, np. tylną furtką."),
-])
-
-LIMITS = UL([
-    ("<strong>Small sample.</strong> Thinking-on rows use 100 problems with one sample each, so intervals are wide, around &plusmn;10 points, and the calibration rule can only catch large differences from the authors' runs.",
-     "<strong>Mała próba.</strong> Wiersze z włączonym myśleniem to 100 zadań po jednej próbce, więc przedziały są szerokie, około &plusmn;10 punktów, a reguła kalibracji wychwyci tylko duże różnice względem przebiegów autorów."),
-    ("<strong>The plan isn't externally timestamped.</strong> Its hash is recorded locally, so the order of events is a claim you have to trust. It was also written after reading the post and logs.",
-     "<strong>Plan nie ma zewnętrznego znacznika czasu.</strong> Jego hash jest zapisany lokalnie, więc kolejność zdarzeń trzeba przyjąć na wiarę. Powstał też po przeczytaniu posta i logów."),
-    ("<strong>Thinking off is a different mode.</strong> It isn't the setting the post evaluates, and its token cap is a quarter of the thinking-on cap. The model card also scores thinking-on higher on some benchmarks, such as MMLU-Pro.",
-     "<strong>Wyłączone myślenie to inny tryb.</strong> Post ocenia inne ustawienie, a limit tokenów jest tu cztery razy niższy niż z włączonym myśleniem. Karta modelu daje też włączonemu myśleniu wyższe wyniki na niektórych benchmarkach, np. MMLU-Pro."),
-    ("<strong>Only the published weights were tested.</strong> Astra wasn't re-run, so nothing here says how repeatable its process is.",
-     "<strong>Testowano tylko opublikowane wagi.</strong> Astry nie uruchamiano ponownie, więc nic tu nie mówi o powtarzalności jej procesu."),
-    ("<strong>Claude isn't a neutral party.</strong> Claude Opus 5.5 did this analysis and wrote this page. Anthropic, which makes Claude, competes with OpenAI, whose model the post tests.",
-     "<strong>Claude nie jest stroną neutralną.</strong> Tę analizę i stronę przygotował Claude Opus 5.5. Anthropic, twórca Claude'a, konkuruje z OpenAI, którego model testuje post."),
-])
+CREDIT = P("The authors published their logs, failures and code comments, which is what made this check possible, and the post states its own limits. The third and fifth experiments are hard to wave away, and the Qwen fix is real engineering: no gradients, a random control and held-out problems.",
+           "Autorzy opublikowali logi, porażki i komentarze w kodzie, dzięki czemu to sprawdzenie było w ogóle możliwe, a post sam podaje swoje granice. Eksperymentów trzeciego i piątego nie da się łatwo zbyć, a naprawa Qwena to prawdziwa inżynieria: bez gradientów, z losową kontrolą i zadaniami odłożonymi.")
 
 
 def method(sha):
@@ -492,16 +363,16 @@ def method(sha):
         UL([
             ("<strong>Models.</strong> <code>Qwen/Qwen3.5-0.8B</code> at revision <code>2fc06364</code>, text-only export with the authors' config. The edited model is the authors' published <code>p50c</code> diff. Tensors match the sha256 values in their manifest.",
              "<strong>Modele.</strong> <code>Qwen/Qwen3.5-0.8B</code> w rewizji <code>2fc06364</code>, eksport tekstowy z konfiguracją autorów. Model z edycją to opublikowany przez autorów diff <code>p50c</code>. Tensory zgadzają się z sumami sha256 z ich manifestu."),
-            ("<strong>Generation.</strong> vLLM 0.33.0, bfloat16, RTX 4060 8 GB, at most 10 concurrent answers with thinking on and 32 with thinking off, per-sample seeds as in the authors' <code>evaluate.py</code>, no early stopping of loops.",
-             "<strong>Generowanie.</strong> vLLM 0.33.0, bfloat16, RTX 4060 8 GB, najwyżej 10 równoczesnych odpowiedzi z myśleniem i 32 bez niego, ziarna na próbkę jak w <code>evaluate.py</code> autorów, bez wczesnego przerywania pętli."),
+            ("<strong>Generation.</strong> vLLM 0.33.0, bfloat16, RTX 4060 8 GB, at most 32 concurrent answers, per-sample seeds as in the authors' <code>evaluate.py</code>, no early stopping of loops.",
+             "<strong>Generowanie.</strong> vLLM 0.33.0, bfloat16, RTX 4060 8 GB, najwyżej 32 równoczesne odpowiedzi, ziarna na próbkę jak w <code>evaluate.py</code> autorów, bez wczesnego przerywania pętli."),
             ("<strong>Grading.</strong> The authors' <code>mathqa.py</code>, which reproduced their grades on 400 of 400 published samples.",
              "<strong>Ocenianie.</strong> <code>mathqa.py</code> autorów, który odtworzył ich oceny na 400 z 400 opublikowanych próbek."),
-            ("<strong>Statistics.</strong> 95% percentile bootstrap over problems, 10,000 resamples. Paired differences use the problems both conditions share.",
-             "<strong>Statystyka.</strong> 95% percentylowy bootstrap po zadaniach, 10 000 losowań. Różnice sparowane liczone są na zadaniach wspólnych dla obu warunków."),
-            (f"<strong>Plan.</strong> Frozen before the first measured answer, at 23:15:40 local time on November 2, 2026. sha256 <code class=\"hash\">{sha}</code>. All conditions are reported.",
-             f"<strong>Plan.</strong> Zamrożony przed pierwszą mierzoną odpowiedzią, 2 listopada 2026 o 23:15:40 czasu lokalnego. sha256 <code class=\"hash\">{sha}</code>. Podane są wszystkie warunki."),
-            ("<strong>Changes from the plan.</strong> Listed in full below it. The main ones: a later deadline and a new running order, both set before any thinking-on condition had run, so that the decision rules could be applied. The Exp 1 maps, the MinAtar control and the edited model with thinking off were added after the plan and are exploratory.",
-             "<strong>Zmiany względem planu.</strong> Pełna lista jest pod nim. Najważniejsze: późniejszy termin i nowa kolejność, ustalone przed startem warunków z włączonym myśleniem, aby dało się zastosować reguły decyzyjne. Mapy z eksperymentu 1, kontrola MinAtar i model z edycją przy wyłączonym myśleniu doszły po planie i są eksploracyjne."),
+            ("<strong>Statistics.</strong> 95% percentile bootstrap over problems, 10,000 resamples. Paired differences use the problems both runs share.",
+             "<strong>Statystyka.</strong> 95% percentylowy bootstrap po zadaniach, 10 000 losowań. Różnice sparowane liczone są na zadaniach wspólnych dla obu przebiegów."),
+            (f"<strong>Plan.</strong> Frozen before the first measured answer, at 23:15:40 local time on November 2, 2026. sha256 <code class=\"hash\">{sha}</code>.",
+             f"<strong>Plan.</strong> Zamrożony przed pierwszą mierzoną odpowiedzią, 2 listopada 2026 o 23:15:40 czasu lokalnego. sha256 <code class=\"hash\">{sha}</code>."),
+            ("<strong>Changes from the plan.</strong> Listed in full below it. The main one: the test was stopped early, so of the plan's measurements only the unedited model with thinking off on MATH-500 finished, and the plan's decision rules were never applied. The edited model with thinking off, the Exp 1 maps and the MinAtar control were added after the plan.",
+             "<strong>Zmiany względem planu.</strong> Pełna lista jest pod nim. Najważniejsza: test przerwano, więc z pomiarów z planu ukończono tylko model bez edycji z wyłączonym myśleniem na MATH-500, a reguł decyzyjnych z planu nigdy nie zastosowano. Model z edycją przy wyłączonym myśleniu, mapy z eksperymentu 1 i kontrola MinAtar doszły po planie."),
         ])
     )
 

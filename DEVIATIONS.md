@@ -1,7 +1,8 @@
 # Changes from the plan
 
 The plan stays as frozen (sha256 `24800e252cd45303cdb3473de1236783de46640bae726bd52d5fac6174f87dfd`), and its full text is on the
-results page. Everything that differs from it is listed here, in the order it happened. The decision rules have not changed.
+results page. Everything that differs from it is listed here, in the order it happened. The decision rules have not changed,
+and they were never applied (item 12).
 
 ## Before the restart, on 2026-11-02
 
@@ -44,3 +45,14 @@ the partial look above.
     mode often fails to finish too, and fewer cuts there would be the same defect. A comparison of finished answers, E2 against N1,
     was added to `analyze.py`. The page reports accuracy, cut share and finished answers for E2, and it says the edit does more than
     let answers finish only if accuracy rises and the interval for finished answers sits above zero. This decides no rule.
+
+## Stopped early, on 2026-11-03
+
+12. **The queue was stopped by hand at 06:24 on 2026-11-03, so most of the plan didn't run.** Finishing it would have taken about
+    ten more hours, and the conclusions don't wait for it.
+    - Finished: N1 on MATH-500 (2,000 answers) and E2 on MATH-500 (500 answers).
+    - Not run: E0, C1, C3, E1, C2, N2, N1 on GSM8K, and the further E2 samples and GSM8K.
+    - C0 was stopped at 10 of 100 answers. Those answers weren't analysed or published. Answers that finish first are the short
+      ones, so they would have been biased.
+    - So the calibration rule and the rules for Q1 and Q3 were never applied, the post's 7.9% and 48.1% weren't re-measured, and the
+      comparisons with the post's scores aren't calibrated. The page says nothing about temperature.
