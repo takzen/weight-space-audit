@@ -1,0 +1,203 @@
+{
+ "math500": {
+  "conditions": {
+   "E2_edit_nothink_T07": {
+    "samples": 500,
+    "problems": 500,
+    "acc": 0.43,
+    "acc_ci95": [
+     0.386,
+     0.474
+    ],
+    "cut_share": 0.32,
+    "cut_ci95": [
+     0.28,
+     0.362
+    ],
+    "mean_tokens": 3818.198,
+    "median_tokens": 1954.5,
+    "acc_given_finished": 0.6294117647058823,
+    "finished_no_answer": 0.004,
+    "cut_loop_share": 0.0,
+    "closed_think_share": 0.0,
+    "on_subset": {
+     "problems": 100,
+     "acc": 0.39,
+     "acc_ci95": [
+      0.3,
+      0.49
+     ]
+    },
+    "cut_on_subset": 0.36
+   },
+   "N1_nothink_T07_p08_pp15": {
+    "samples": 2000,
+    "problems": 500,
+    "acc": 0.4595,
+    "acc_ci95": [
+     0.4255,
+     0.4945
+    ],
+    "cut_share": 0.314,
+    "cut_ci95": [
+     0.281,
+     0.3475
+    ],
+    "mean_tokens": 3757.214,
+    "median_tokens": 1794.5,
+    "acc_given_finished": 0.6661807580174927,
+    "finished_no_answer": 0.0,
+    "cut_loop_share": 0.06369426751592357,
+    "closed_think_share": 0.0025,
+    "on_subset": {
+     "problems": 100,
+     "acc": 0.4025,
+     "acc_ci95": [
+      0.32993750000000005,
+      0.48
+     ]
+    },
+    "cut_on_subset": 0.33
+   }
+  },
+  "authors": {
+   "unedited": {
+    "full": {
+     "problems": 500,
+     "acc": 0.079,
+     "acc_ci95": [
+      0.0605,
+      0.098
+     ]
+    },
+    "subset": {
+     "problems": 100,
+     "acc": 0.03,
+     "acc_ci95": [
+      0.0125,
+      0.0525
+     ]
+    },
+    "totals": {
+     "cut": 1860,
+     "total": 2000,
+     "tokens_sum": 61736869,
+     "ok": 158,
+     "ok_lenient": 0,
+     "no_answer_finished": 0
+    },
+    "cut_share": 0.93
+   },
+   "p50c": {
+    "full": {
+     "problems": 500,
+     "acc": 0.481,
+     "acc_ci95": [
+      0.443,
+      0.5175
+     ]
+    },
+    "subset": {
+     "problems": 100,
+     "acc": 0.445,
+     "acc_ci95": [
+      0.365,
+      0.525
+     ]
+    },
+    "totals": {
+     "cut": 661,
+     "total": 2000,
+     "tokens_sum": 44074295,
+     "ok": 962,
+     "ok_lenient": 871,
+     "no_answer_finished": 153
+    },
+    "cut_share": 0.3305
+   }
+  },
+  "decisions": {
+   "comparisons": [],
+   "calibration": {},
+   "q1": null,
+   "q3": null,
+   "exploratory": [
+    {
+     "a": "E2_edit_nothink_T07",
+     "b": "N1_nothink_T07_p08_pp15",
+     "what": "the edit with thinking off",
+     "acc": {
+      "problems": 500,
+      "diff": -0.0295,
+      "ci95": [
+       -0.0655,
+       0.005
+      ]
+     },
+     "cut": {
+      "problems": 500,
+      "diff": 0.006,
+      "ci95": [
+       -0.0245,
+       0.037
+      ]
+     }
+    },
+    {
+     "a": "E2_edit_nothink_T07:finished",
+     "b": "N1_nothink_T07_p08_pp15:finished",
+     "what": "finished answers only, thinking off, edited against unedited",
+     "acc": {
+      "problems": 333,
+      "diff": -0.02727727727727727,
+      "ci95": [
+       -0.07582582582582582,
+       0.02252252252252253
+      ]
+     },
+     "a_mean": 0.6366366366366366,
+     "b_mean": 0.6639139139139139
+    },
+    {
+     "a": "N1_nothink_T07_p08_pp15",
+     "b": "authors:p50c",
+     "what": "unedited with thinking off, against the authors' edited model with thinking on",
+     "acc": {
+      "problems": 500,
+      "diff": -0.0215,
+      "ci95": [
+       -0.046,
+       0.0035
+      ]
+     }
+    },
+    {
+     "a": "N1_nothink_T07_p08_pp15",
+     "b": "authors:unedited",
+     "what": "unedited with thinking off, against the authors' unedited model with thinking on",
+     "acc": {
+      "problems": 500,
+      "diff": 0.3805,
+      "ci95": [
+       0.3495,
+       0.412
+      ]
+     }
+    },
+    {
+     "a": "E2_edit_nothink_T07",
+     "b": "authors:p50c",
+     "what": "edited with thinking off, against the authors' edited model with thinking on",
+     "acc": {
+      "problems": 500,
+      "diff": -0.051,
+      "ci95": [
+       -0.0875,
+       -0.015
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

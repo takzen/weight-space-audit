@@ -1,0 +1,5002 @@
+[
+ {
+  "id": "test/algebra/1098.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "6+9i",
+  "finish_reason": "stop",
+  "n_tokens": 375,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2584.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{14}{3}",
+  "finish_reason": "stop",
+  "n_tokens": 405,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1302.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "11\\sqrt{2}",
+  "finish_reason": "stop",
+  "n_tokens": 445,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/807.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "(3, \\frac{\\pi}{2})",
+  "finish_reason": "stop",
+  "n_tokens": 515,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/1303.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "10",
+  "finish_reason": "stop",
+  "n_tokens": 515,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1840.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "114",
+  "finish_reason": "stop",
+  "n_tokens": 531,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2036.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\sqrt{117}",
+  "finish_reason": "stop",
+  "n_tokens": 559,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1622.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "42",
+  "finish_reason": "stop",
+  "n_tokens": 561,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/779.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-2+7i",
+  "finish_reason": "stop",
+  "n_tokens": 816,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/24.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 267,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/572.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "9",
+  "finish_reason": "stop",
+  "n_tokens": 833,
+  "closed_think": false,
+  "tail_dup8": 0.008
+ },
+ {
+  "id": "test/precalculus/927.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "90",
+  "finish_reason": "stop",
+  "n_tokens": 977,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2214.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 302,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/930.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "12",
+  "finish_reason": "stop",
+  "n_tokens": 405,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/248.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "5",
+  "finish_reason": "stop",
+  "n_tokens": 1268,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/45.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "23",
+  "finish_reason": "stop",
+  "n_tokens": 814,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/geometry/967.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "540",
+  "finish_reason": "stop",
+  "n_tokens": 930,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/119.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-125",
+  "finish_reason": "stop",
+  "n_tokens": 1161,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/178.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 460,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1265.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{2}{1}",
+  "finish_reason": "stop",
+  "n_tokens": 223,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/428.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "3, 7",
+  "finish_reason": "stop",
+  "n_tokens": 1289,
+  "closed_think": false,
+  "tail_dup8": 0.015
+ },
+ {
+  "id": "test/algebra/305.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "5",
+  "finish_reason": "stop",
+  "n_tokens": 438,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1072.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{243}{625}",
+  "finish_reason": "stop",
+  "n_tokens": 1518,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1388.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "83",
+  "finish_reason": "stop",
+  "n_tokens": 377,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1558.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "0.90",
+  "finish_reason": "stop",
+  "n_tokens": 849,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/990.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "(2 + \\sqrt{10}) + i(\\sqrt{10} - 3)",
+  "finish_reason": "stop",
+  "n_tokens": 2001,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/counting_and_probability/666.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "1500",
+  "finish_reason": "stop",
+  "n_tokens": 2096,
+  "closed_think": false,
+  "tail_dup8": 0.014
+ },
+ {
+  "id": "test/intermediate_algebra/1197.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{8}{63}",
+  "finish_reason": "stop",
+  "n_tokens": 2274,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/algebra/769.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "11",
+  "finish_reason": "stop",
+  "n_tokens": 333,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/1105.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-\\frac{\\pi}{6}",
+  "finish_reason": "stop",
+  "n_tokens": 555,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/572.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "0.15",
+  "finish_reason": "stop",
+  "n_tokens": 583,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/722.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "9901",
+  "finish_reason": "stop",
+  "n_tokens": 424,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/285.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "6",
+  "finish_reason": "stop",
+  "n_tokens": 1653,
+  "closed_think": false,
+  "tail_dup8": 0.02
+ },
+ {
+  "id": "test/prealgebra/951.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "12",
+  "finish_reason": "stop",
+  "n_tokens": 1387,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/algebra/187.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 1271,
+  "closed_think": false,
+  "tail_dup8": 0.01
+ },
+ {
+  "id": "test/algebra/1349.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "Angela",
+  "finish_reason": "stop",
+  "n_tokens": 3342,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/627.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 3007,
+  "closed_think": false,
+  "tail_dup8": 0.052
+ },
+ {
+  "id": "test/prealgebra/1747.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 504,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2046.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "x^3 + 3x - 6",
+  "finish_reason": "stop",
+  "n_tokens": 528,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1168.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "16",
+  "finish_reason": "stop",
+  "n_tokens": 1936,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/prealgebra/1233.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "10",
+  "finish_reason": "stop",
+  "n_tokens": 648,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/46.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "40_9",
+  "finish_reason": "stop",
+  "n_tokens": 761,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/algebra/2193.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "5",
+  "finish_reason": "stop",
+  "n_tokens": 4599,
+  "closed_think": false,
+  "tail_dup8": 0.011
+ },
+ {
+  "id": "test/number_theory/516.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "13",
+  "finish_reason": "stop",
+  "n_tokens": 687,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/456.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 637,
+  "closed_think": false,
+  "tail_dup8": 0.01
+ },
+ {
+  "id": "test/algebra/2253.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{3\\sqrt{3}}{4}",
+  "finish_reason": "stop",
+  "n_tokens": 358,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/1199.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{\\pi}{2}",
+  "finish_reason": "stop",
+  "n_tokens": 4950,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/number_theory/864.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "520_8",
+  "finish_reason": "stop",
+  "n_tokens": 5134,
+  "closed_think": false,
+  "tail_dup8": 0.05
+ },
+ {
+  "id": "test/algebra/1004.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 318,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2427.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "stop",
+  "n_tokens": 5351,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/192.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 305,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/24313.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\cot x",
+  "finish_reason": "stop",
+  "n_tokens": 997,
+  "closed_think": false,
+  "tail_dup8": 0.026
+ },
+ {
+  "id": "test/algebra/1035.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 568,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/623.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "0",
+  "finish_reason": "stop",
+  "n_tokens": 1477,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/intermediate_algebra/1849.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 1146,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/353.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{\\sqrt{5}}{2}",
+  "finish_reason": "stop",
+  "n_tokens": 623,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/prealgebra/307.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "240",
+  "finish_reason": "stop",
+  "n_tokens": 499,
+  "closed_think": false,
+  "tail_dup8": 0.047
+ },
+ {
+  "id": "test/number_theory/515.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "27",
+  "finish_reason": "stop",
+  "n_tokens": 6946,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/893.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-1",
+  "finish_reason": "stop",
+  "n_tokens": 1357,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/567.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 739,
+  "closed_think": false,
+  "tail_dup8": 0.023
+ },
+ {
+  "id": "test/intermediate_algebra/134.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "-51",
+  "finish_reason": "stop",
+  "n_tokens": 7809,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/algebra/2023.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 424,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1761.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{3}{2}",
+  "finish_reason": "stop",
+  "n_tokens": 836,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1247.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "5",
+  "finish_reason": "stop",
+  "n_tokens": 5860,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/intermediate_algebra/1994.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1139.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.022
+ },
+ {
+  "id": "test/number_theory/1032.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/number_theory/737.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.031
+ },
+ {
+  "id": "test/geometry/434.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/intermediate_algebra/1000.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.011
+ },
+ {
+  "id": "test/intermediate_algebra/607.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.01
+ },
+ {
+  "id": "test/algebra/1837.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/intermediate_algebra/1388.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.029
+ },
+ {
+  "id": "test/counting_and_probability/525.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.022
+ },
+ {
+  "id": "test/prealgebra/1924.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "2k - 6",
+  "finish_reason": "stop",
+  "n_tokens": 291,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/873.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "-1",
+  "finish_reason": "stop",
+  "n_tokens": 629,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/134.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/intermediate_algebra/431.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "(a+5)(b+2)",
+  "finish_reason": "stop",
+  "n_tokens": 426,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/627.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.066
+ },
+ {
+  "id": "test/intermediate_algebra/515.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{4}{3}",
+  "finish_reason": "stop",
+  "n_tokens": 562,
+  "closed_think": false,
+  "tail_dup8": 0.015
+ },
+ {
+  "id": "test/number_theory/914.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 608,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/intermediate_algebra/1454.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/prealgebra/1804.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "29",
+  "finish_reason": "stop",
+  "n_tokens": 1166,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/23957.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "210",
+  "finish_reason": "stop",
+  "n_tokens": 608,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/1055.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.016
+ },
+ {
+  "id": "test/intermediate_algebra/1217.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.099
+ },
+ {
+  "id": "test/precalculus/34.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-4",
+  "finish_reason": "stop",
+  "n_tokens": 1775,
+  "closed_think": false,
+  "tail_dup8": 0.026
+ },
+ {
+  "id": "test/algebra/2157.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 348,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/1060.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "3360",
+  "finish_reason": "stop",
+  "n_tokens": 572,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/1114.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{11}{36}",
+  "finish_reason": "stop",
+  "n_tokens": 5648,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/algebra/2251.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 418,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/956.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.025
+ },
+ {
+  "id": "test/intermediate_algebra/1247.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/prealgebra/505.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "6",
+  "finish_reason": "stop",
+  "n_tokens": 337,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/675.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.016
+ },
+ {
+  "id": "test/intermediate_algebra/279.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.018
+ },
+ {
+  "id": "test/prealgebra/105.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "west",
+  "finish_reason": "stop",
+  "n_tokens": 2549,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/algebra/2232.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-3",
+  "finish_reason": "stop",
+  "n_tokens": 412,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/847.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "4215_5",
+  "finish_reason": "stop",
+  "n_tokens": 378,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/1146.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.061
+ },
+ {
+  "id": "test/algebra/1332.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "9",
+  "finish_reason": "stop",
+  "n_tokens": 820,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1733.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-9",
+  "finish_reason": "stop",
+  "n_tokens": 1095,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/prealgebra/1686.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 559,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2058.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "13",
+  "finish_reason": "stop",
+  "n_tokens": 2551,
+  "closed_think": false,
+  "tail_dup8": 0.008
+ },
+ {
+  "id": "test/precalculus/1313.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.057
+ },
+ {
+  "id": "test/precalculus/1300.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\begin{pmatrix} -\\frac{1}{3} \\\\ \\frac{2}{3} \\\\ \\frac{5}{3} \\end{pmatrix}",
+  "finish_reason": "stop",
+  "n_tokens": 3698,
+  "closed_think": false,
+  "tail_dup8": 0.063
+ },
+ {
+  "id": "test/intermediate_algebra/207.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.047
+ },
+ {
+  "id": "test/algebra/661.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "12",
+  "finish_reason": "stop",
+  "n_tokens": 1206,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1807.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "120",
+  "finish_reason": "stop",
+  "n_tokens": 657,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2593.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "8000",
+  "finish_reason": "stop",
+  "n_tokens": 2839,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/counting_and_probability/377.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{448}{15625}",
+  "finish_reason": "stop",
+  "n_tokens": 4230,
+  "closed_think": false,
+  "tail_dup8": 0.051
+ },
+ {
+  "id": "test/algebra/246.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "8",
+  "finish_reason": "stop",
+  "n_tokens": 998,
+  "closed_think": false,
+  "tail_dup8": 0.013
+ },
+ {
+  "id": "test/algebra/972.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{11}{2}",
+  "finish_reason": "stop",
+  "n_tokens": 1570,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/232.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "79",
+  "finish_reason": "stop",
+  "n_tokens": 2297,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/number_theory/357.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "3714081",
+  "finish_reason": "stop",
+  "n_tokens": 5280,
+  "closed_think": false,
+  "tail_dup8": 0.057
+ },
+ {
+  "id": "test/prealgebra/1297.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "9",
+  "finish_reason": "stop",
+  "n_tokens": 662,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/43.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "(15, -29)",
+  "finish_reason": "stop",
+  "n_tokens": 335,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/intermediate_algebra/1126.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "16",
+  "finish_reason": "stop",
+  "n_tokens": 1040,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1519.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{\\sqrt{3}}{3}",
+  "finish_reason": "stop",
+  "n_tokens": 512,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/988.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "11",
+  "finish_reason": "stop",
+  "n_tokens": 436,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/47.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/counting_and_probability/430.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{1}{5}",
+  "finish_reason": "stop",
+  "n_tokens": 1265,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/precalculus/477.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3\\sqrt{5}",
+  "finish_reason": "stop",
+  "n_tokens": 1143,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/algebra/892.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\sqrt{3}",
+  "finish_reason": "stop",
+  "n_tokens": 6688,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/algebra/2700.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/2046.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.018
+ },
+ {
+  "id": "test/number_theory/753.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "14",
+  "finish_reason": "stop",
+  "n_tokens": 2757,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/number_theory/156.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "13",
+  "finish_reason": "stop",
+  "n_tokens": 1925,
+  "closed_think": false,
+  "tail_dup8": 0.029
+ },
+ {
+  "id": "test/geometry/880.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 1448,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/number_theory/521.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "18",
+  "finish_reason": "stop",
+  "n_tokens": 1118,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1255.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "6",
+  "finish_reason": "stop",
+  "n_tokens": 277,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/prealgebra/1646.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/intermediate_algebra/662.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/183.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/582.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/intermediate_algebra/558.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/intermediate_algebra/362.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/counting_and_probability/803.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{1}{4}",
+  "finish_reason": "stop",
+  "n_tokens": 2915,
+  "closed_think": false,
+  "tail_dup8": 0.01
+ },
+ {
+  "id": "test/algebra/478.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "65",
+  "finish_reason": "stop",
+  "n_tokens": 335,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/894.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.008
+ },
+ {
+  "id": "test/algebra/621.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3.21",
+  "finish_reason": "stop",
+  "n_tokens": 2894,
+  "closed_think": false,
+  "tail_dup8": 0.015
+ },
+ {
+  "id": "test/precalculus/44.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.025
+ },
+ {
+  "id": "test/prealgebra/1356.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{4}{9}",
+  "finish_reason": "stop",
+  "n_tokens": 668,
+  "closed_think": false,
+  "tail_dup8": 0.012
+ },
+ {
+  "id": "test/algebra/2517.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{99}{25}",
+  "finish_reason": "stop",
+  "n_tokens": 767,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1272.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{13}{15}",
+  "finish_reason": "stop",
+  "n_tokens": 362,
+  "closed_think": false,
+  "tail_dup8": 0.02
+ },
+ {
+  "id": "test/intermediate_algebra/345.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1898.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.048
+ },
+ {
+  "id": "test/counting_and_probability/159.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "199584000",
+  "finish_reason": "stop",
+  "n_tokens": 5538,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/number_theory/598.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "0.000000021",
+  "finish_reason": "stop",
+  "n_tokens": 478,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/65.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "60",
+  "finish_reason": "stop",
+  "n_tokens": 1045,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/algebra/351.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 1288,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/intermediate_algebra/128.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.044
+ },
+ {
+  "id": "test/prealgebra/1922.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "1251",
+  "finish_reason": "stop",
+  "n_tokens": 319,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/geometry/283.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.011
+ },
+ {
+  "id": "test/geometry/802.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "16.97",
+  "finish_reason": "stop",
+  "n_tokens": 2390,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/intermediate_algebra/1063.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.011
+ },
+ {
+  "id": "test/algebra/1214.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 317,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/1140.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/algebra/2199.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "7",
+  "finish_reason": "stop",
+  "n_tokens": 474,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/841.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "350",
+  "finish_reason": "stop",
+  "n_tokens": 2887,
+  "closed_think": false,
+  "tail_dup8": 0.019
+ },
+ {
+  "id": "test/algebra/1082.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "23",
+  "finish_reason": "stop",
+  "n_tokens": 1344,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/2022.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.011
+ },
+ {
+  "id": "test/algebra/109.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "0",
+  "finish_reason": "stop",
+  "n_tokens": 300,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/1257.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.063
+ },
+ {
+  "id": "test/intermediate_algebra/1151.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/612.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1408.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.22
+ },
+ {
+  "id": "test/algebra/1937.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "1600",
+  "finish_reason": "stop",
+  "n_tokens": 331,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/966.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.015
+ },
+ {
+  "id": "test/algebra/686.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 3810,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1113.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "60",
+  "finish_reason": "stop",
+  "n_tokens": 3226,
+  "closed_think": false,
+  "tail_dup8": 0.019
+ },
+ {
+  "id": "test/precalculus/986.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "144",
+  "finish_reason": "stop",
+  "n_tokens": 7898,
+  "closed_think": false,
+  "tail_dup8": 0.042
+ },
+ {
+  "id": "test/prealgebra/1907.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "17",
+  "finish_reason": "stop",
+  "n_tokens": 424,
+  "closed_think": false,
+  "tail_dup8": 0.021
+ },
+ {
+  "id": "test/number_theory/931.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "49",
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/intermediate_algebra/964.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.029
+ },
+ {
+  "id": "test/intermediate_algebra/1422.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 1224,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/172.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.01
+ },
+ {
+  "id": "test/counting_and_probability/230.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.011
+ },
+ {
+  "id": "test/intermediate_algebra/1555.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "12",
+  "finish_reason": "stop",
+  "n_tokens": 637,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/978.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "7",
+  "finish_reason": "stop",
+  "n_tokens": 2571,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/algebra/2570.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "2778",
+  "finish_reason": "stop",
+  "n_tokens": 7747,
+  "closed_think": false,
+  "tail_dup8": 0.012
+ },
+ {
+  "id": "test/counting_and_probability/389.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "28",
+  "finish_reason": "stop",
+  "n_tokens": 489,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/541.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "(\\frac{3}{2}, -13)",
+  "finish_reason": "stop",
+  "n_tokens": 775,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/51.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{4}{9}",
+  "finish_reason": "stop",
+  "n_tokens": 2372,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/number_theory/149.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "150",
+  "finish_reason": "stop",
+  "n_tokens": 1163,
+  "closed_think": false,
+  "tail_dup8": 0.008
+ },
+ {
+  "id": "test/precalculus/117.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1555.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "5",
+  "finish_reason": "stop",
+  "n_tokens": 400,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/intermediate_algebra/1410.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/algebra/864.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "(-1, 6)",
+  "finish_reason": "stop",
+  "n_tokens": 286,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/221.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "30",
+  "finish_reason": "stop",
+  "n_tokens": 2462,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/291.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "1/4",
+  "finish_reason": "stop",
+  "n_tokens": 1468,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/prealgebra/1436.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 635,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/1201.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 1197,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/prealgebra/1961.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "0",
+  "finish_reason": "stop",
+  "n_tokens": 483,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/234.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "16",
+  "finish_reason": "stop",
+  "n_tokens": 1295,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1908.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "8",
+  "finish_reason": "stop",
+  "n_tokens": 5346,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/algebra/2159.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "11",
+  "finish_reason": "stop",
+  "n_tokens": 689,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/263.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\left( -\\frac{741}{2}, -52, 18 \\right)",
+  "finish_reason": "stop",
+  "n_tokens": 2488,
+  "closed_think": false,
+  "tail_dup8": 0.046
+ },
+ {
+  "id": "test/precalculus/819.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "A",
+  "finish_reason": "stop",
+  "n_tokens": 584,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/89.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "900",
+  "finish_reason": "stop",
+  "n_tokens": 1425,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/71.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 1017,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/2057.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "98",
+  "finish_reason": "stop",
+  "n_tokens": 445,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1655.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.031
+ },
+ {
+  "id": "test/number_theory/183.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "10",
+  "finish_reason": "stop",
+  "n_tokens": 2014,
+  "closed_think": false,
+  "tail_dup8": 0.029
+ },
+ {
+  "id": "test/precalculus/697.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/prealgebra/1003.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.072
+ },
+ {
+  "id": "test/counting_and_probability/181.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.028
+ },
+ {
+  "id": "test/precalculus/441.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "30",
+  "finish_reason": "stop",
+  "n_tokens": 847,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2102.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "56",
+  "finish_reason": "stop",
+  "n_tokens": 3119,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/algebra/297.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.056
+ },
+ {
+  "id": "test/number_theory/838.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "6",
+  "finish_reason": "stop",
+  "n_tokens": 4779,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/991.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.012
+ },
+ {
+  "id": "test/algebra/975.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\{-4, -5, 1, 4\\}",
+  "finish_reason": "stop",
+  "n_tokens": 775,
+  "closed_think": false,
+  "tail_dup8": 0.029
+ },
+ {
+  "id": "test/prealgebra/153.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "-\\frac{35}{999}",
+  "finish_reason": "stop",
+  "n_tokens": 915,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/254.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 282,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/659.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/algebra/1143.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "15",
+  "finish_reason": "stop",
+  "n_tokens": 912,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1787.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 365,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/378.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "9",
+  "finish_reason": "stop",
+  "n_tokens": 4870,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/algebra/1275.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.026
+ },
+ {
+  "id": "test/intermediate_algebra/1123.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{10}{11}",
+  "finish_reason": "stop",
+  "n_tokens": 786,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/183.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1837.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "64",
+  "finish_reason": "stop",
+  "n_tokens": 2564,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1934.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "13",
+  "finish_reason": "stop",
+  "n_tokens": 599,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/733.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/prealgebra/1458.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{1}{8}",
+  "finish_reason": "stop",
+  "n_tokens": 445,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/702.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/prealgebra/1995.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{8}{21}",
+  "finish_reason": "stop",
+  "n_tokens": 538,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/473.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "864",
+  "finish_reason": "stop",
+  "n_tokens": 490,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2064.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "81",
+  "finish_reason": "stop",
+  "n_tokens": 1268,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/1065.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "17",
+  "finish_reason": "stop",
+  "n_tokens": 2037,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/452.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "B",
+  "finish_reason": "stop",
+  "n_tokens": 1077,
+  "closed_think": false,
+  "tail_dup8": 0.024
+ },
+ {
+  "id": "test/intermediate_algebra/149.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "22",
+  "finish_reason": "stop",
+  "n_tokens": 375,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/intermediate_algebra/2196.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/prealgebra/1317.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 265,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/347.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "76",
+  "finish_reason": "stop",
+  "n_tokens": 443,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/591.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.064
+ },
+ {
+  "id": "test/precalculus/920.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\begin{pmatrix} 2 + \\sqrt{3} & 2 - \\sqrt{3} \\\\ 2 - \\sqrt{3} & 2 + \\sqrt{3} \\end{pmatrix}",
+  "finish_reason": "stop",
+  "n_tokens": 2633,
+  "closed_think": false,
+  "tail_dup8": 0.015
+ },
+ {
+  "id": "test/counting_and_probability/508.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/algebra/524.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4005",
+  "finish_reason": "stop",
+  "n_tokens": 528,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/2086.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.025
+ },
+ {
+  "id": "test/prealgebra/1742.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "0.33",
+  "finish_reason": "stop",
+  "n_tokens": 583,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/580.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "120",
+  "finish_reason": "stop",
+  "n_tokens": 1072,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2626.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "25226",
+  "finish_reason": "stop",
+  "n_tokens": 3926,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/number_theory/466.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 693,
+  "closed_think": false,
+  "tail_dup8": 0.01
+ },
+ {
+  "id": "test/intermediate_algebra/1510.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.04
+ },
+ {
+  "id": "test/algebra/2551.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "10",
+  "finish_reason": "stop",
+  "n_tokens": 521,
+  "closed_think": false,
+  "tail_dup8": 0.008
+ },
+ {
+  "id": "test/algebra/346.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "7",
+  "finish_reason": "stop",
+  "n_tokens": 305,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1834.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\sqrt{53}",
+  "finish_reason": "stop",
+  "n_tokens": 240,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/913.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 895,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/prealgebra/993.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "125",
+  "finish_reason": "stop",
+  "n_tokens": 557,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1578.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{98}{13}",
+  "finish_reason": "stop",
+  "n_tokens": 5789,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/intermediate_algebra/986.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "16",
+  "finish_reason": "stop",
+  "n_tokens": 6143,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/102.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/prealgebra/1512.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "33\\pi",
+  "finish_reason": "stop",
+  "n_tokens": 648,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/counting_and_probability/765.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.022
+ },
+ {
+  "id": "test/algebra/907.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.082
+ },
+ {
+  "id": "test/number_theory/691.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "255",
+  "finish_reason": "stop",
+  "n_tokens": 891,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/417.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.008
+ },
+ {
+  "id": "test/counting_and_probability/282.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/547.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/prealgebra/1787.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 1073,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/190.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.015
+ },
+ {
+  "id": "test/precalculus/768.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "stop",
+  "n_tokens": 1191,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1210.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "-10",
+  "finish_reason": "stop",
+  "n_tokens": 5715,
+  "closed_think": false,
+  "tail_dup8": 0.023
+ },
+ {
+  "id": "test/algebra/2486.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\left( \\frac{3}{5}, \\frac{8}{3} \\right]",
+  "finish_reason": "stop",
+  "n_tokens": 651,
+  "closed_think": false,
+  "tail_dup8": 0.018
+ },
+ {
+  "id": "test/number_theory/1287.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "8",
+  "finish_reason": "stop",
+  "n_tokens": 1887,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/precalculus/1056.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.068
+ },
+ {
+  "id": "test/precalculus/1172.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\sqrt{\\frac{138}{89}}",
+  "finish_reason": "stop",
+  "n_tokens": 1826,
+  "closed_think": false,
+  "tail_dup8": 0.008
+ },
+ {
+  "id": "test/intermediate_algebra/1354.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/geometry/483.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "15",
+  "finish_reason": "stop",
+  "n_tokens": 3935,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/algebra/1282.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "20",
+  "finish_reason": "stop",
+  "n_tokens": 2986,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/geometry/1097.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "99",
+  "finish_reason": "stop",
+  "n_tokens": 616,
+  "closed_think": false,
+  "tail_dup8": 0.033
+ },
+ {
+  "id": "test/algebra/1184.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "150",
+  "finish_reason": "stop",
+  "n_tokens": 2816,
+  "closed_think": false,
+  "tail_dup8": 0.013
+ },
+ {
+  "id": "test/prealgebra/874.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "128",
+  "finish_reason": "stop",
+  "n_tokens": 7659,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/881.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\begin{pmatrix} -16 \\\\ -35 \\\\ 27 \\end{pmatrix}",
+  "finish_reason": "stop",
+  "n_tokens": 1228,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/precalculus/989.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.027
+ },
+ {
+  "id": "test/intermediate_algebra/337.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.013
+ },
+ {
+  "id": "test/prealgebra/465.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 864,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/229.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.063
+ },
+ {
+  "id": "test/algebra/2257.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{9}{19}",
+  "finish_reason": "stop",
+  "n_tokens": 728,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/634.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "333",
+  "finish_reason": "stop",
+  "n_tokens": 4425,
+  "closed_think": false,
+  "tail_dup8": 0.032
+ },
+ {
+  "id": "test/counting_and_probability/339.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "6",
+  "finish_reason": "stop",
+  "n_tokens": 1412,
+  "closed_think": false,
+  "tail_dup8": 0.029
+ },
+ {
+  "id": "test/algebra/1842.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "49",
+  "finish_reason": "stop",
+  "n_tokens": 397,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1714.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "(5, \\infty)",
+  "finish_reason": "stop",
+  "n_tokens": 288,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/1108.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "(2, 4)",
+  "finish_reason": "stop",
+  "n_tokens": 302,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/446.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "9",
+  "finish_reason": "stop",
+  "n_tokens": 1357,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/695.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "(-\\infty, 0]",
+  "finish_reason": "stop",
+  "n_tokens": 1079,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1251.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1423.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "37.70",
+  "finish_reason": "stop",
+  "n_tokens": 519,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/276.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "12",
+  "finish_reason": "stop",
+  "n_tokens": 646,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/425.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-128",
+  "finish_reason": "stop",
+  "n_tokens": 442,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/algebra/2735.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{9a+11}{20}",
+  "finish_reason": "stop",
+  "n_tokens": 608,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/prealgebra/1044.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "10",
+  "finish_reason": "stop",
+  "n_tokens": 2253,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/algebra/1936.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-1",
+  "finish_reason": "stop",
+  "n_tokens": 363,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/694.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "16",
+  "finish_reason": "stop",
+  "n_tokens": 6821,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/geometry/73.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 473,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/894.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.019
+ },
+ {
+  "id": "test/counting_and_probability/1009.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1973.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 673,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/947.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-\\frac{24}{25}",
+  "finish_reason": "stop",
+  "n_tokens": 1973,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/954.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "10",
+  "finish_reason": "stop",
+  "n_tokens": 2648,
+  "closed_think": false,
+  "tail_dup8": 0.046
+ },
+ {
+  "id": "test/geometry/826.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.021
+ },
+ {
+  "id": "test/geometry/226.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/algebra/509.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\dfrac{13}{6}",
+  "finish_reason": "stop",
+  "n_tokens": 1332,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1457.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "0",
+  "finish_reason": "stop",
+  "n_tokens": 436,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/533.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/algebra/2592.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "26000",
+  "finish_reason": "stop",
+  "n_tokens": 287,
+  "closed_think": false,
+  "tail_dup8": 0.05
+ },
+ {
+  "id": "test/geometry/686.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.029
+ },
+ {
+  "id": "test/algebra/634.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{51 \\pm \\sqrt{2489}}{4}",
+  "finish_reason": "stop",
+  "n_tokens": 7145,
+  "closed_think": false,
+  "tail_dup8": 0.01
+ },
+ {
+  "id": "test/number_theory/483.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 734,
+  "closed_think": false,
+  "tail_dup8": 0.019
+ },
+ {
+  "id": "test/counting_and_probability/25149.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "63",
+  "finish_reason": "stop",
+  "n_tokens": 7090,
+  "closed_think": false,
+  "tail_dup8": 0.014
+ },
+ {
+  "id": "test/prealgebra/1730.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "6",
+  "finish_reason": "stop",
+  "n_tokens": 776,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/260.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/prealgebra/1238.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 448,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/1172.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "103",
+  "finish_reason": "stop",
+  "n_tokens": 6525,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/algebra/1529.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "1",
+  "finish_reason": "stop",
+  "n_tokens": 390,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1411.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.008
+ },
+ {
+  "id": "test/counting_and_probability/737.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "14625",
+  "finish_reason": "stop",
+  "n_tokens": 745,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/intermediate_algebra/960.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.154
+ },
+ {
+  "id": "test/number_theory/631.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.02
+ },
+ {
+  "id": "test/intermediate_algebra/1300.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.028
+ },
+ {
+  "id": "test/intermediate_algebra/1572.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "5",
+  "finish_reason": "stop",
+  "n_tokens": 857,
+  "closed_think": false,
+  "tail_dup8": 0.02
+ },
+ {
+  "id": "test/algebra/2176.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 3847,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/algebra/1338.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "66",
+  "finish_reason": "stop",
+  "n_tokens": 833,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1547.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "6r^2 - 4r - 24",
+  "finish_reason": "stop",
+  "n_tokens": 781,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/858.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-2",
+  "finish_reason": "stop",
+  "n_tokens": 1358,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/90.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.025
+ },
+ {
+  "id": "test/counting_and_probability/116.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4495",
+  "finish_reason": "stop",
+  "n_tokens": 697,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1544.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "0",
+  "finish_reason": "stop",
+  "n_tokens": 6517,
+  "closed_think": false,
+  "tail_dup8": 0.022
+ },
+ {
+  "id": "test/number_theory/488.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/precalculus/1201.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.021
+ },
+ {
+  "id": "test/number_theory/686.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "6",
+  "finish_reason": "stop",
+  "n_tokens": 1252,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/754.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{\\ln 7 - \\ln 3}{\\ln 4}",
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/counting_and_probability/216.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "10560",
+  "finish_reason": "stop",
+  "n_tokens": 4219,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/prealgebra/1353.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 871,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/251.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 336,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1078.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "(-\\sqrt{21}, \\sqrt{21})",
+  "finish_reason": "stop",
+  "n_tokens": 918,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/860.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "ellipse",
+  "finish_reason": "stop",
+  "n_tokens": 1052,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/algebra/1199.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "6",
+  "finish_reason": "stop",
+  "n_tokens": 507,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/1289.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-41",
+  "finish_reason": "stop",
+  "n_tokens": 403,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/106.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "31",
+  "finish_reason": "stop",
+  "n_tokens": 679,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/geometry/965.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.013
+ },
+ {
+  "id": "test/algebra/1303.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 323,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/109.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 1246,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/algebra/2264.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "-1-2i",
+  "finish_reason": "stop",
+  "n_tokens": 647,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/711.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/number_theory/203.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/number_theory/911.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.008
+ },
+ {
+  "id": "test/algebra/791.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/algebra/529.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "81",
+  "finish_reason": "stop",
+  "n_tokens": 3057,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/prealgebra/1865.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "12",
+  "finish_reason": "stop",
+  "n_tokens": 524,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1743.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 685,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/2152.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.034
+ },
+ {
+  "id": "test/number_theory/427.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "25",
+  "finish_reason": "stop",
+  "n_tokens": 1351,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1298.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "15x - 80",
+  "finish_reason": "stop",
+  "n_tokens": 245,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/465.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "100",
+  "finish_reason": "stop",
+  "n_tokens": 7817,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/number_theory/1185.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "6",
+  "finish_reason": "stop",
+  "n_tokens": 1269,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/870.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/101.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "(-\\infty, -7) \\cup (2, \\infty)",
+  "finish_reason": "stop",
+  "n_tokens": 686,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/algebra/849.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "18",
+  "finish_reason": "stop",
+  "n_tokens": 327,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1031.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{11}{2}",
+  "finish_reason": "stop",
+  "n_tokens": 483,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/742.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.022
+ },
+ {
+  "id": "test/intermediate_algebra/117.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/algebra/170.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "11",
+  "finish_reason": "stop",
+  "n_tokens": 712,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/538.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "(8, -2)",
+  "finish_reason": "stop",
+  "n_tokens": 2317,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/algebra/518.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{3}{4}",
+  "finish_reason": "stop",
+  "n_tokens": 541,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1992.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "(-36, 9)",
+  "finish_reason": "stop",
+  "n_tokens": 1909,
+  "closed_think": false,
+  "tail_dup8": 0.041
+ },
+ {
+  "id": "test/algebra/853.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 1111,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1784.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "326.5",
+  "finish_reason": "stop",
+  "n_tokens": 431,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/prealgebra/2066.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "0",
+  "finish_reason": "stop",
+  "n_tokens": 1857,
+  "closed_think": false,
+  "tail_dup8": 0.008
+ },
+ {
+  "id": "test/algebra/114.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 1116,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/prealgebra/1991.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "Ian",
+  "finish_reason": "stop",
+  "n_tokens": 769,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/190.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/counting_and_probability/14.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "1/6",
+  "finish_reason": "stop",
+  "n_tokens": 5045,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/prealgebra/977.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "23",
+  "finish_reason": "stop",
+  "n_tokens": 1193,
+  "closed_think": false,
+  "tail_dup8": 0.033
+ },
+ {
+  "id": "test/precalculus/96.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "28",
+  "finish_reason": "stop",
+  "n_tokens": 5484,
+  "closed_think": false,
+  "tail_dup8": 0.033
+ },
+ {
+  "id": "test/number_theory/928.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 617,
+  "closed_think": false,
+  "tail_dup8": 0.033
+ },
+ {
+  "id": "test/algebra/1960.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "9",
+  "finish_reason": "stop",
+  "n_tokens": 264,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/761.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 775,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/intermediate_algebra/776.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.013
+ },
+ {
+  "id": "test/intermediate_algebra/1111.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "4823.7",
+  "finish_reason": "stop",
+  "n_tokens": 3130,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/132.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "0",
+  "finish_reason": "stop",
+  "n_tokens": 910,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1227.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "60",
+  "finish_reason": "stop",
+  "n_tokens": 430,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/368.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.053
+ },
+ {
+  "id": "test/algebra/2680.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "10\\frac{1}{4}r^9",
+  "finish_reason": "stop",
+  "n_tokens": 535,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1566.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/precalculus/801.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.022
+ },
+ {
+  "id": "test/algebra/2391.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "10",
+  "finish_reason": "stop",
+  "n_tokens": 491,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1796.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "2\\sqrt{5}",
+  "finish_reason": "stop",
+  "n_tokens": 783,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/precalculus/625.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{8}{49}",
+  "finish_reason": "stop",
+  "n_tokens": 664,
+  "closed_think": false,
+  "tail_dup8": 0.015
+ },
+ {
+  "id": "test/counting_and_probability/238.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/precalculus/826.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/precalculus/1281.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/algebra/776.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "-2",
+  "finish_reason": "stop",
+  "n_tokens": 1193,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/counting_and_probability/1014.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.023
+ },
+ {
+  "id": "test/prealgebra/1187.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "22.5",
+  "finish_reason": "stop",
+  "n_tokens": 7134,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/intermediate_algebra/1166.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.023
+ },
+ {
+  "id": "test/number_theory/820.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "53",
+  "finish_reason": "stop",
+  "n_tokens": 7368,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/number_theory/769.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "9",
+  "finish_reason": "stop",
+  "n_tokens": 1800,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/intermediate_algebra/1407.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.038
+ },
+ {
+  "id": "test/algebra/2743.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "29",
+  "finish_reason": "stop",
+  "n_tokens": 452,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/2019.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "4.5",
+  "finish_reason": "stop",
+  "n_tokens": 310,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/1339.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{25}{24}",
+  "finish_reason": "stop",
+  "n_tokens": 724,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/843.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "8\\sqrt{2}",
+  "finish_reason": "stop",
+  "n_tokens": 727,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1405.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.032
+ },
+ {
+  "id": "test/prealgebra/65.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 3037,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/intermediate_algebra/690.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.037
+ },
+ {
+  "id": "test/number_theory/410.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\text{Non-terminating}",
+  "finish_reason": "stop",
+  "n_tokens": 763,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/255.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "0",
+  "finish_reason": "stop",
+  "n_tokens": 468,
+  "closed_think": false,
+  "tail_dup8": 0.015
+ },
+ {
+  "id": "test/algebra/1553.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "3",
+  "finish_reason": "stop",
+  "n_tokens": 823,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2043.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "(-\\infty, 2) \\cup (3, \\infty)",
+  "finish_reason": "stop",
+  "n_tokens": 1051,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/intermediate_algebra/955.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/prealgebra/631.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 5546,
+  "closed_think": false,
+  "tail_dup8": 0.02
+ },
+ {
+  "id": "test/prealgebra/2037.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "550",
+  "finish_reason": "stop",
+  "n_tokens": 320,
+  "closed_think": false,
+  "tail_dup8": 0.043
+ },
+ {
+  "id": "test/algebra/2080.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "14",
+  "finish_reason": "stop",
+  "n_tokens": 521,
+  "closed_think": false,
+  "tail_dup8": 0.044
+ },
+ {
+  "id": "test/geometry/846.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.01
+ },
+ {
+  "id": "test/algebra/1343.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 286,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/188.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\frac{3}{8}",
+  "finish_reason": "stop",
+  "n_tokens": 7021,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/algebra/2789.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "47",
+  "finish_reason": "stop",
+  "n_tokens": 409,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/668.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "45",
+  "finish_reason": "stop",
+  "n_tokens": 613,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/996.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "9",
+  "finish_reason": "stop",
+  "n_tokens": 851,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/499.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\left[ \\frac{\\pi^2}{4}, \\frac{5\\pi^2}{4} \\right]",
+  "finish_reason": "stop",
+  "n_tokens": 2461,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/geometry/795.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{\\sqrt{21}}{5}",
+  "finish_reason": "stop",
+  "n_tokens": 7516,
+  "closed_think": false,
+  "tail_dup8": 0.025
+ },
+ {
+  "id": "test/algebra/1814.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "143",
+  "finish_reason": "stop",
+  "n_tokens": 1032,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/459.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{639}{40}",
+  "finish_reason": "stop",
+  "n_tokens": 1197,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/counting_and_probability/190.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "6",
+  "finish_reason": "stop",
+  "n_tokens": 471,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/342.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "0",
+  "finish_reason": "stop",
+  "n_tokens": 349,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2277.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/precalculus/902.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/intermediate_algebra/1791.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/intermediate_algebra/1779.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "15",
+  "finish_reason": "stop",
+  "n_tokens": 2711,
+  "closed_think": false,
+  "tail_dup8": 0.019
+ },
+ {
+  "id": "test/algebra/1425.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 392,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/2780.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "45.9",
+  "finish_reason": "stop",
+  "n_tokens": 1146,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/824.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "12",
+  "finish_reason": "stop",
+  "n_tokens": 943,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/817.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "7\\sqrt{2}",
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.01
+ },
+ {
+  "id": "test/intermediate_algebra/1797.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "2\\sqrt{5}",
+  "finish_reason": "stop",
+  "n_tokens": 7418,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/intermediate_algebra/1806.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/precalculus/1291.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.011
+ },
+ {
+  "id": "test/number_theory/72.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "121",
+  "finish_reason": "stop",
+  "n_tokens": 414,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/1572.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/intermediate_algebra/1014.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "50",
+  "finish_reason": "stop",
+  "n_tokens": 5551,
+  "closed_think": false,
+  "tail_dup8": 0.012
+ },
+ {
+  "id": "test/intermediate_algebra/834.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "9",
+  "finish_reason": "stop",
+  "n_tokens": 996,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/algebra/435.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "16",
+  "finish_reason": "stop",
+  "n_tokens": 632,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/precalculus/398.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\begin{pmatrix} 5 \\\\ 0 \\end{pmatrix}",
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/algebra/224.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\text{infinitely many}",
+  "finish_reason": "stop",
+  "n_tokens": 797,
+  "closed_think": false,
+  "tail_dup8": 0.012
+ },
+ {
+  "id": "test/algebra/2470.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "12\\frac{5}{4}",
+  "finish_reason": "stop",
+  "n_tokens": 481,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/2146.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.018
+ },
+ {
+  "id": "test/prealgebra/1252.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "1150",
+  "finish_reason": "stop",
+  "n_tokens": 551,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/2015.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\{-6, -2, 2\\}",
+  "finish_reason": "stop",
+  "n_tokens": 7102,
+  "closed_think": false,
+  "tail_dup8": 0.013
+ },
+ {
+  "id": "test/prealgebra/846.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "84",
+  "finish_reason": "stop",
+  "n_tokens": 1532,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/precalculus/681.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.01
+ },
+ {
+  "id": "test/precalculus/145.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.016
+ },
+ {
+  "id": "test/precalculus/1202.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.035
+ },
+ {
+  "id": "test/algebra/2476.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "10",
+  "finish_reason": "stop",
+  "n_tokens": 5397,
+  "closed_think": false,
+  "tail_dup8": 0.016
+ },
+ {
+  "id": "test/number_theory/1002.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.031
+ },
+ {
+  "id": "test/intermediate_algebra/1102.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "-2",
+  "finish_reason": "stop",
+  "n_tokens": 4763,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/precalculus/1133.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.035
+ },
+ {
+  "id": "test/number_theory/1090.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "1006",
+  "finish_reason": "stop",
+  "n_tokens": 1224,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/intermediate_algebra/121.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.012
+ },
+ {
+  "id": "test/algebra/2430.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "7",
+  "finish_reason": "stop",
+  "n_tokens": 6645,
+  "closed_think": false,
+  "tail_dup8": 0.036
+ },
+ {
+  "id": "test/intermediate_algebra/1462.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/geometry/477.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "216",
+  "finish_reason": "stop",
+  "n_tokens": 673,
+  "closed_think": false,
+  "tail_dup8": 0.018
+ },
+ {
+  "id": "test/prealgebra/1640.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.003
+ },
+ {
+  "id": "test/prealgebra/805.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "5",
+  "finish_reason": "stop",
+  "n_tokens": 5183,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/10.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/intermediate_algebra/199.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.005
+ },
+ {
+  "id": "test/intermediate_algebra/1981.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "\\left(2, 102\\right)",
+  "finish_reason": "stop",
+  "n_tokens": 593,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/22.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "4",
+  "finish_reason": "stop",
+  "n_tokens": 3397,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1365.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "15",
+  "finish_reason": "stop",
+  "n_tokens": 1432,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/intermediate_algebra/1232.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "\\frac{5}{13}",
+  "finish_reason": "stop",
+  "n_tokens": 1010,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/731.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/number_theory/1000.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.069
+ },
+ {
+  "id": "test/precalculus/323.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "y = 2x - 15",
+  "finish_reason": "stop",
+  "n_tokens": 7333,
+  "closed_think": false,
+  "tail_dup8": 0.021
+ },
+ {
+  "id": "test/geometry/615.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "36^\\circ",
+  "finish_reason": "stop",
+  "n_tokens": 813,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/number_theory/13.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.03
+ },
+ {
+  "id": "test/prealgebra/1203.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "36",
+  "finish_reason": "stop",
+  "n_tokens": 2252,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/prealgebra/914.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "40",
+  "finish_reason": "stop",
+  "n_tokens": 6437,
+  "closed_think": false,
+  "tail_dup8": 0.009
+ },
+ {
+  "id": "test/algebra/2779.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "23",
+  "finish_reason": "stop",
+  "n_tokens": 2752,
+  "closed_think": false,
+  "tail_dup8": 0.018
+ },
+ {
+  "id": "test/number_theory/679.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.268
+ },
+ {
+  "id": "test/precalculus/703.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.075
+ },
+ {
+  "id": "test/prealgebra/1114.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/intermediate_algebra/158.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.001
+ },
+ {
+  "id": "test/prealgebra/1930.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.031
+ },
+ {
+  "id": "test/intermediate_algebra/752.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.006
+ },
+ {
+  "id": "test/counting_and_probability/1003.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.022
+ },
+ {
+  "id": "test/intermediate_algebra/1279.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.004
+ },
+ {
+  "id": "test/number_theory/1128.json",
+  "sample": 0,
+  "correct": 1,
+  "pred": "2",
+  "finish_reason": "stop",
+  "n_tokens": 8119,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/prealgebra/1128.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "1024",
+  "finish_reason": "stop",
+  "n_tokens": 6328,
+  "closed_think": false,
+  "tail_dup8": 0.034
+ },
+ {
+  "id": "test/precalculus/1252.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.018
+ },
+ {
+  "id": "test/intermediate_algebra/1467.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.02
+ },
+ {
+  "id": "test/precalculus/1082.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.017
+ },
+ {
+  "id": "test/intermediate_algebra/101.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/counting_and_probability/199.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.007
+ },
+ {
+  "id": "test/number_theory/239.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.028
+ },
+ {
+  "id": "test/intermediate_algebra/1350.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.002
+ },
+ {
+  "id": "test/precalculus/356.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": "y = \\frac{1}{2}x",
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.027
+ },
+ {
+  "id": "test/intermediate_algebra/1930.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.012
+ },
+ {
+  "id": "test/geometry/561.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.0
+ },
+ {
+  "id": "test/intermediate_algebra/1508.json",
+  "sample": 0,
+  "correct": 0,
+  "pred": null,
+  "finish_reason": "length",
+  "n_tokens": 8192,
+  "closed_think": false,
+  "tail_dup8": 0.015
+ }
+]

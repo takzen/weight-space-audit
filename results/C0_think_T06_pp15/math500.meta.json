@@ -1,0 +1,1 @@
+{"cond":"C0_think_T06_pp15","weights":"text","set":"math500","samples":1,"temperature":0.6,"top_p":0.95,"top_k":20,"presence_penalty":1.5,"max_tokens":32768,"thinking":1,"subset":1,"max_num_seqs":10,"vllm":"0.33.0"}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.tmp
+
+# Raw answers are stored compressed as .jsonl.gz, and analyze.py reads them after unpacking.
+results/**/*.jsonl
+
+# Run logs carry local paths. The queue log and the plan's hash are the ones that matter for the record.
+logs/*
+!logs/queue.log
+!logs/plan_sha256.txt

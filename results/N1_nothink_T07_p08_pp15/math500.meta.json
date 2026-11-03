@@ -1,0 +1,1 @@
+{"cond":"N1_nothink_T07_p08_pp15","weights":"text","set":"math500","samples":4,"temperature":0.7,"top_p":0.8,"top_k":20,"presence_penalty":1.5,"max_tokens":8192,"thinking":0,"subset":0,"max_num_seqs":32,"vllm":"0.33.0"}

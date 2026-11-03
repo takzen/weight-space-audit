@@ -1,0 +1,56 @@
+{
+ "breakout": {
+  "network": {
+   "mean": 493.164,
+   "se": 7.735368189364035,
+   "episodes": 1000,
+   "max": 823.0,
+   "mean_length": 7007.282,
+   "share_hit_step_limit": 0.478
+  },
+  "rule": {
+   "mean": 10.181,
+   "se": 0.31110613305755647,
+   "episodes": 1000,
+   "max": 78.0,
+   "mean_length": 119.992,
+   "share_hit_step_limit": 0.0
+  }
+ },
+ "asterix": {
+  "network": {
+   "mean": 53.278,
+   "se": 1.0778443600374148,
+   "episodes": 1000,
+   "max": 275.0,
+   "mean_length": 856.294,
+   "share_hit_step_limit": 0.0
+  },
+  "rule": {
+   "mean": 17.403,
+   "se": 0.49686362763283903,
+   "episodes": 1000,
+   "max": 72.0,
+   "mean_length": 394.626,
+   "share_hit_step_limit": 0.0
+  }
+ },
+ "seaquest": {
+  "network": {
+   "mean": 51.469,
+   "se": 1.3093278345694706,
+   "episodes": 1000,
+   "max": 157.0,
+   "mean_length": 1388.589,
+   "share_hit_step_limit": 0.0
+  },
+  "rule": {
+   "mean": 36.365,
+   "se": 1.077054232998887,
+   "episodes": 1000,
+   "max": 205.0,
+   "mean_length": 557.378,
+   "share_hit_step_limit": 0.0
+  }
+ }
+}
